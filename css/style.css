@@ -10,7 +10,7 @@
 }
 
 * {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -128,6 +128,11 @@ body {
     margin: 2rem;
 }
 
+.txtEnd {
+    text-align: end;
+    margin: 2rem;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -150,6 +155,17 @@ img {
     max-height: 13rem;
     width: auto;
     margin-top: 2rem;
+}
+
+.imgWrap--smContain {
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.imgWrap--smContain img {
+    max-height: auto;
+    max-width: 20rem;
+    margin: 2rem;
 }
 
 main {
@@ -217,6 +233,10 @@ main {
     color: #F1687D;
 }
 
+.hStyleBlu {
+    color: var(--clr-txtHighLight);
+}
+
 .clrStylelight {
     color: var(--clr-colorStyleLight);
 }
@@ -227,7 +247,7 @@ main {
 
 .grid {
     display: grid;
-    margin: 2rem;
+    margin: auto;
     padding: 2rem;
     gap: 1rem;
     grid-template-columns: 50% 50%;
@@ -239,6 +259,14 @@ main {
 .grid img {
     max-height: 13rem;
     max-width: auto;
+}
+
+.imgWrap--smContain #tubeTips {
+    margin: 0 auto;
+}
+
+.card-title {
+    color: var(--clr-primaryHeading);
 }
 
 @media only screen and (max-width: 500px) {
